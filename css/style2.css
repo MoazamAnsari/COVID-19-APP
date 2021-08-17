@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../images/2.jpeg'); 
+    /* backdrop-filter: opacity(100%); */
+    backdrop-filter: blur(2px);
+    color: white;
+}
+.card-img-top{
+    margin-top: 50px;
+}
+.card-title{
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.card1{
+    color: black;
+    border: none;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgba(95, 100, 155, 0.35);   
+    box-shadow: rgb(177, 162, 212) 2.4px 2.4px 3.2px;
+}
+.card0{
+    /* margin-left: 90px; */
+    /* padding: 95px; */
+    margin: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(95, 100, 155, 0.35);   
+    box-shadow: rgb(177, 162, 212) 2.4px 2.4px 3.2px;
+}
+.card2{
+    color: black;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(95, 100, 155, 0.35);   
+    box-shadow: rgb(177, 162, 212) 2.4px 2.4px 3.2px;
+}
+.confirm-cases{
+    height: 90px;
+    width: 90px;
+}
+.confirm-cases-text{
+    font-size: 25px;
+    font-weight: 800;
+}
+.confirm-cases-num{
+    margin: 15px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.c{
+    text-align: right;  
+}
